@@ -19,7 +19,7 @@
 /* We do not want to link in the OpenMPI CXX stuff */
 #define OMPI_SKIP_MPICXX
 
-#include <boost/mpi.h>
+#include <boost/mpi.hpp>
 #include <boost/config.hpp>
 
 /** @brief Comment this macro is you are running in an heterogeneous environment.
